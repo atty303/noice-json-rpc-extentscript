@@ -1,7 +1,7 @@
 {
-  "name": "noice-json-rpc",
-  "version": "1.2.0",
-  "description": "Noice Json RPC exposes a clean ES6 Proxy and Promise based interface for JSON-RPC2 Clients and Servers",
+  "name": "noice-json-rpc-extendscript",
+  "version": "1.2.0-1",
+  "description": "ExtendScript version of Noice Json RPC (Server only)",
   "main": "lib/noice-json-rpc.js",
   "typings": "lib/noice-json-rpc.d.ts",
   "files": [
@@ -19,41 +19,41 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/nojvek/noice-json-rpc"
+    "url": "git+ssh://git@github.com/atty303/extendscript-noice-json-rpc"
   },
   "keywords": [
     "noice",
     "json",
     "rpc",
     "rpc2",
-    "es6",
+    "extendscript",
     "proxy",
     "promises",
     "api",
-    "server",
-    "client"
+    "server"
   ],
   "author": "nojvek",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nojvek/noice-json-rpc/issues"
+    "url": "https://github.com/atty303/extendscript-noice-json-rpc/issues"
   },
-  "homepage": "https://github.com/nojvek/noice-json-rpc#readme",
+  "homepage": "https://github.com/atty303/extendscript-noice-json-rpc#readme",
   "devDependencies": {
     "@types/chai": "^3.4.34",
     "@types/mocha": "^2.2.32",
     "@types/node": "^6.0.43",
     "@types/sinon": "^1.16.31",
-    "@types/ws": "^3.2.1",
     "chai": "^3.5.0",
     "chrome-remote-debug-protocol": "^1.0.1",
-    "devtools-protocol": "0.0.555290",
     "coveralls": "^2.11.11",
+    "devtools-protocol": "0.0.555290",
     "istanbul": "^0.4.5",
     "mocha": "^2.5.3",
     "sinon": "^1.17.4",
     "tslint": "^3.15.1",
-    "typescript": "^2.0.3",
-    "ws": "^3.3.2"
+    "typescript": "^2.0.3"
+  },
+  "dependencies": {
+    "eventemitter3": "^3.1.2"
   }
 }
